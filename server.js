@@ -40,3 +40,6 @@ app.use(flash());
 app.get('/', (req, res) => {
     res.send('t')
 })
+
+    
+app.listen(process.env.PORT);
